@@ -21,7 +21,7 @@ filter' f (x:xs)
             | otherwise = filter' f xs
 
 
-addSquares = sum [x*x | x <- [1,2..100], x `mod` 2 /=0, x*x <10000]
+  addSquares = sum [x*x | x <- [1,2..100], x `mod` 2 /=0, x*x <10000]
 
 
 doOperation :: (Integral a) => a -> a
